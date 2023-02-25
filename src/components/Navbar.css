@@ -1,0 +1,16 @@
+.navbar{
+    @apply max-w-[1300px] 2xl:max-w-[1440px] px-6 mx-auto py-4 bg-gray-800 text-white flex items-center justify-between
+}
+
+.navbar .links{
+    @apply flex items-center space-x-2
+}
+.navbar > a{
+    @apply font-bold text-2xl
+}
+.navbar .links a{
+    @apply  hover:text-red-400
+}
+.active{
+    @apply text-red-400
+}

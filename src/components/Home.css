@@ -1,0 +1,9 @@
+.home{
+    @apply flex flex-col justify-center items-center space-y-4 mt-8
+}
+.home h2{
+    @apply text-white font-bold 
+}
+.home p{
+    @apply text-white font-bold text-2xl
+}
